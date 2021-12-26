@@ -19,6 +19,7 @@ skin_default/icons/Makefile
 skin_default/infobar/Makefile
 skin_default/menu/Makefile
 skin_default/piconbg/Makefile
+skin_default/qr/Makefile
 skin_default/screens/Makefile
 skin_default/skin_default/Makefile
 skin_fallback_1080/Makefile
