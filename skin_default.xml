@@ -1119,7 +1119,43 @@
 		<widget source="hdd" render="Label" position="0,275" size="530,200" font="Regular;18" transparent="0" zPosition="1" noWrap="1"/>
 		<widget source="MountsHeader" render="Label" position="0,400" size="458,25" font="Bold;20" transparent="0" zPosition="1"/>
 		<widget source="mounts" render="Label" position="0,425" size="530,175" font="Regular;18" transparent="0" zPosition="1" noWrap="1"/>
-	</screen>
+	</screen>	
+	<!-- QR code BF -->
+        <screen name="QRCode" position="center,center" size="560,500">
+                <widget source="Info" render="Label" position="-338,6" size="556,407" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+                <panel name="MenuRed2Panel" />
+                <panel name="MenuGreen2Panel" />
+        </screen>
+        <screen name="ForQRCodeOpen" position="center,center" size="560,500">
+                <ePixmap alphatest="blend" pixmap="skin_default/qr/qr-code_sf8008.png" position="73,26" size="400,400" />
+                <widget source="Info" render="Label" position="2,-2" size="560,498" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+		<panel name="MenuRed2Panel"/>
+        </screen>
+        <!-- Development Sponsors BF -->
+        <screen name="DevelopmentSponsors" position="center,center" size="560,500">
+		<widget source="Info" render="Label" position="-338,6" size="556,407" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+		<panel name="MenuRed2Panel"/>
+		<panel name="MenuGreen2Panel"/>
+        </screen>
+        <screen name="ForBecomeMember" position="center,center" size="560,500">
+		<widget source="Info" render="Label" position="-338,6" size="556,407" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+		<panel name="MenuRed2Panel"/>
+        </screen>
+        <!-- About Image BF -->
+        <screen name="AboutImage" position="center,center" size="560,500">
+		<widget source="Info" render="Label" position="-338,6" size="556,407" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+		<panel name="MenuRed2Panel"/>
+		<panel name="MenuGreen2Panel"/>
+        </screen>
+        <screen name="ForThanksOpen" position="center,center" size="560,500">
+		<widget source="Info" render="Label" position="-338,6" size="556,407" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
+		<panel name="MenuRed2Panel"/>
+        </screen>
+        <!-- Geolocation BF -->
+        <screen name="Geolocation" position="center,center" size="560,500">
+		<panel name="MenuRed2Panel"/>
+		<widget name="AboutScrollLabel" position="30,0" size="458,375" valign="left" font="Regular;20" transparent="1"/>
+        </screen>	
 	<screen name="AboutReleaseNotes" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,526" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
 	</screen>
