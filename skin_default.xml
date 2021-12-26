@@ -1127,7 +1127,8 @@
                 <panel name="MenuGreen2Panel" />
         </screen>
         <screen name="ForQRCodeOpen" position="center,center" size="560,500">
-                <ePixmap alphatest="blend" pixmap="skin_default/qr/qr-code_sf8008.png" position="73,26" size="400,400" />
+                <ePixmap alphatest="blend" pixmap="qr-code_sf8008.png" position="73,26" size="400,400" />
+		<ePixmap alphatest="blend" pixmap="qr-code_ustym4kpro.png" position="73,26" size="400,400" />
                 <widget source="Info" render="Label" position="2,-2" size="560,498" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
 		<panel name="MenuRed2Panel"/>
         </screen>
