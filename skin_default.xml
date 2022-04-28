@@ -1134,6 +1134,8 @@
 		<ePixmap alphatest="blend" pixmap="/usr/share/enigma2/qr-code_ax60.png" position="73,26" size="400,400" />
 		<ePixmap alphatest="blend" pixmap="/usr/share/enigma2/qr-code_pulse4kmini.png" position="73,26" size="400,400" />
 		<ePixmap alphatest="blend" pixmap="/usr/share/enigma2/qr-code_geniuse3hd.png" position="73,26" size="400,400" />
+		<ePixmap alphatest="blend" pixmap="/usr/share/enigma2/qr-code_dm900.png" position="73,26" size="400,400" />
+		<ePixmap alphatest="blend" pixmap="/usr/share/enigma2/qr-code_dm920.png" position="73,26" size="400,400" />
 		<widget source="Info" render="Label" position="2,-2" size="560,498" font="Regular;20" halign="center" backgroundColor="background" transparent="1" />
 		<panel name="MenuRed2Panel"/>
         </screen>
